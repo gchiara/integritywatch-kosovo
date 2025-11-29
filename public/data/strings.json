@@ -1,0 +1,586 @@
+{
+   "en":{
+	  "menu": {
+		  "section1": "Assets Declarations",
+		  "section2": "Public Procurement",
+		  "section3": "Political Party Finance",
+		  "otherPlatforms": "Other IW platforms",
+		  "about": "About"
+	  },
+	  "sectionInfo": {
+		"readMore": "Read more...",
+		"share": "Share",
+		"downloadData": "Download data",
+		"section1": {
+			"title": "INTEGRITY WATCH KOSOVO",
+	  		"sectionTitle": "ASSET DECLARATIONS",
+	  		"description": "<p>Public officials are required to declare their assets regularly. We have made these declarations easy to search and compare by year and by institution. You can see which institutions have the most declarants, identify whether declarants appear as owners or /and shareholders in businesses, check whether those businesses have won public tenders, and see if the declarants have made donations to political parties.</p><p><strong>You’ll find:</strong> asset and interest declarations, ownership or shareholdings of public officials in private companies, public officials’ companies that win public tenders, and their political donations.</p>",
+			"descriptionMore": ""
+		},
+		"section2": {
+			"title": "INTEGRITY WATCH KOSOVO",
+	  		"sectionTitle": "PUBLIC PROCUREMENT",
+	  		"description": "<p>Kosovo’s public institutions spend hundreds of millions each year through procurement, and yet, due to technical difficulties to check everything, most citizens don’t know who wins or why. Integrity Watch platform for Kosovo visualizes those tenders, helping you see which companies consistently get public contracts, how big those contracts are, from which institutions, and potential connections of public officials with such contracts or companies.</p><p><strong>You’ll find:</strong> companies winning public tenders, contract values, contract procedures used, tenders awarded to companies related to public officials, and other red flags associated to public spending.</p>",
+			"descriptionMore": ""
+		},
+		"section3": {
+			"title": "INTEGRITY WATCH KOSOVO",
+	  		"sectionTitle": "POLITICAL FINANCING",
+	  		"description": "<p>Campaigns cost money. But who’s paying the bills, and what do they get in return? Our data track the declared donations of political entities. Here you can see trends in political donations, especially around elections, identify which parties receive the most private donations by count and by amount, and compare donations by type. You can spot when political party donors appear as public contractors, or when political parties’ financial reports don’t match other data.</p><p><strong>You’ll find:</strong> donors list, annual reports, and financial patterns throughout the years.</p>",
+			"descriptionMore": ""
+		}
+	  },
+	  "shareModalTitle": "Share this page",
+      "share": "Share on",
+	  "lastUpdatedOn": "Last updated on",
+	  "filters": {
+			"allYears": "All years"
+	  },
+	  "charts": {
+		"general": {
+			"yes": "Yes",
+			"no": "No",
+			"declarations": "declarations",
+			"tenders": "tenders",
+			"donations": "donations",
+			"donorIsCompanyRelatedToPublicOfficial": "Donor company related to public official",
+			"donorIsCompanyWithTendersWins": "Donor company with tender wins",
+			"donorIsCompanyWithTendersWinsWithin3Years": "Donor company has tender wins within 3 years",
+			"highValueDonation": "Donations above the allowed limits",
+			"declaredBusinessHasTenderWins": "Listed business won tender awards",
+			"declarationHasDonations": "Declarant made political donations",
+			"Individual": "Individual",
+			"Company": "Company"
+		},
+		"section1": {
+			"years": {
+				"title": "Declarations by year",
+				"info": "This chart represents the number of assets declarations by year."
+			},
+			"institutionCategory": {
+				"title": "Institution categories",
+				"info": "Institution categories by number of declarations.<br /><br />Click on the piechart slices to filter the dashboard by the selected categories."
+			},
+			"institution": {
+				"title": "Institutions",
+				"info": "This chart displays the top institutions ranked by the number of declarations.<br /><br />Click on the bars to filter the dashboard by the selected institutions."
+			},
+			"businessOwner": {
+				"title": "Declarant is business owner",
+				"info": "This chart highlights assets declarations where the declarant is the owner of a business.<br /><br />Click on a piechart slice to filter the dashboard accordingly."
+			},
+			"businessShareholder": {
+				"title": "Declarant is business shareholder",
+				"info": "This chart highlights assets declarations where the declarant is the shareholder of a business.<br /><br />Click on a piechart slice to filter the dashboard accordingly."
+			},
+			"companies": {
+				"title": "Companies most mentioned in declarations",
+				"info": "This chart displays the businesses most frequently listed in the declarations.<br /><br />Click on the bars to filter the dashboard by the selected businesses."
+			},
+			"indicators": {
+				"title": "Risk indicators",
+				"info": "This chart highlights assets declarations by declarants who made donations to political parties or where a mentioned business has won tender awards.<br /><br />Click on the bars to filter the dashboard accordingly."
+			},
+			"table": {
+				"title": "Declarations",
+				"info": "Assets declarations list and details."
+			}
+		},
+		"section2": {
+			"years": {
+				"title": "Tenders by year",
+				"info": "This chart represents the number of public procurement procedures by year."
+			},
+			"deadline": {
+				"title": "Tenders with shortened deadlines",
+				"info": "This chart highlights the number of tenders with a shortened deadline.<br /><br />Click on a piechart slice to filter the dashboard accordingly."
+			},
+			"negative": {
+				"title": "Backdated tenders",
+				"info": "This chart highlights the number of tenders with a negative number of days duration.<br /><br />Click on a piechart slice to filter the dashboard accordingly."
+			},
+			"values": {
+				"title": "Tenders by total value ranges",
+				"info": "This chart displays the number of tenders in the different value range categories.<br /><br />Click on the bars to filter the dashboard by the selected value ranges."
+			},
+			"indicators": {
+				"title": "Tenders awarded to companies related to public officials",
+				"info": "This chart highlights the number of tenders awarded to companies related to public officials.<br /><br />Click on a piechart slice to filter the dashboard accordingly."
+			},
+			"hasAwardData": {
+				"title": "Tenders with award data",
+				"info": "This chart displays the number of tenders for which award data is present.<br /><br />Click on a piechart slice to filter the dashboard accordingly."
+			},
+			"topAuthsByNum": {
+				"title": "Top contracting authorities by tenders number",
+				"info": "This chart displays the top contracting authorities ranked by number of tenders.<br /><br />Click on the bars to filter the dashboard by the selected contracting authorities."
+			},
+			"topAuthsByVal": {
+				"title": "Top contracting authorities by total tenders value",
+				"info": "This chart displays the top contracting authorities ranked by the total value of their tenders.<br /><br />Click on the bars to filter the dashboard by the selected contracting authorities."
+			},
+			"topTenderersByNum": {
+				"title": "Top tenderers by tenders number",
+				"info": "This chart displays the top tenderers ranked by number of tenders they applied to.<br /><br />Click on the bars to filter the dashboard by the selected entity."
+			},
+			"topTenderersByAwards": {
+				"title": "Top tenderers by number of awarded tenders",
+				"info": "This chart displays the top tenderers ranked by number of awarded tenders.<br /><br />Click on the bars to filter the dashboard by the selected entity."
+			},
+			"topTenderersByVal": {
+				"title": "Top tenderers by total awarded amount",
+				"info": "This chart displays the top tenderers ranked by total awarded amount.<br /><br />Click on the bars to filter the dashboard by the selected entity."
+			},
+			"criteria": {
+				"title": "Award criteria",
+				"info": "Award criteria by number of tenders.<br /><br />Click on the piechart slices to filter the dashboard by the selected award criteria."
+			},
+			"methodDetailVal": {
+				"title": "Procurement procedure by tenders value",
+				"info": "Detailed procurement methods ranked by total tenders value.<br /><br />Click on the bars to filter the dashboard by the selected procurement methods."
+			},
+			"methodDetail": {
+				"title": "Procurement procedures",
+				"info": "Detailed procurement methods ranked by number of tenders.<br /><br />Click on the bars to filter the dashboard by the selected procurement methods."
+			},
+			"type": {
+				"title": "Procurement type",
+				"info": "Procurement type by number of tenders.<br /><br />Click on the piechart slices to filter the dashboard by the selected procurement types."
+			},
+			"table": {
+				"title": "Tenders",
+				"info": "Tenders list and details. N/A in 'Total Awarded Amount' means the tender is still in procedure or has been cancelled.<br /><br />Click on each row to view additional information."
+			}
+		},
+		"section3": {
+			"years": {
+				"title": "Donations by year",
+				"info": "This chart represents the number of donations to political parties by year."
+			},
+			"partiesByDonations": {
+				"title": "Top parties by donations number",
+				"info": "This chart displays the top political parties ranked by the number of donations received.<br /><br />Click on the bars to filter the dashboard by the selected parties."
+			},
+			"partiesByDonationsAmt": {
+				"title": "Top parties by donations total amount",
+				"info": "This chart displays the top political parties ranked by the total monetary value of the donations received.<br /><br />Click on the bars to filter the dashboard by the selected parties."
+			},
+			"donorsByDonations": {
+				"title": "Top donors by donations number",
+				"info": "This chart displays the top donors ranked by the number of donations given.<br /><br />Click on the bars to filter the dashboard by the selected donors."
+			},
+			"donorsByDonationsAmt": {
+				"title": "Top donors by donations total amount",
+				"info": "This chart displays the top donors ranked by the total monetary value of their donations.<br /><br />Click on the bars to filter the dashboard by the selected donors."
+			},
+			"donorType": {
+				"title": "Donor type",
+				"info": "Donor type (individual or company) by number of donations to political parties.<br /><br />Click on a piechart slice to filter the dashboard by the selected donor type."
+			},
+			"donationType": {
+				"title": "Donation type",
+				"info": "Donation type by number of donations.<br /><br />Click on a piechart slice to filter the dashboard by the selected donation type."
+			},
+			"locations": {
+				"title": "Locations",
+				"info": "This chart displays the top locations ranked by the number of related donations.<br /><br />Click on the bars to filter the dashboard by the selected locations."
+			},
+			"indicators": {
+				"title": "Risk indicators",
+				"info": "This chart highlights donations made by companies that won public procurement tenders or by companies where a public official is the owner or shareholder.<br /><br />Click on the bars to filter the dashboard accordingly."
+			},
+			"table": {
+				"title": "Donations",
+				"info": "Donations list and details."
+			}
+		}
+	  },
+	  "modals": {
+		"section2": {
+			"title": "Title",
+			"entity": "Contracting entity",
+			"tenderers": "Tenderers",
+			"start": "Start date",
+			"end": "End date",
+			"method": "Procurement method",
+			"methodDetails": "Procurement procedure detail",
+			"category": "Category",
+        	"criteria": "Criteria",
+			"value": "Tender value",
+			"totAwardAmount": "Total awards value",
+			"awards": "Awards",
+			"awardValue": "Value",
+			"awardSuppliers": "Suppliers",
+			"publicOfficials": "Public officials related to tender winner companies"
+		},
+		"section3Button": "Political donations declared by public official but absent in the financial reports",
+		"section3": {
+			"nr": "Nr",
+			"title": "Political donations declared by public official but absent in the financial reports",
+			"description": "",
+			"name": "Public official",
+			"institution": "Institution",
+			"year": "Declaration date",
+			"politicalParty": "Political party",
+			"totalDonations": "Total donations",
+			"date": "Donation date",
+			"comments": "Notes",
+			"tendersModalTitle": "Tenders won by donor company",
+			"tenderWithin3Years": "Within 3 years of donation",
+			"tender": "Tender ID"
+		}
+	  },
+	  "footer": {
+		  "filter": "Filter ...",
+		  "reset": "Reset filters",
+		  "counters": {
+			  "of": "of",
+			  "entries": "entries",
+			  "declarations": "declarations",
+			  "tenders": "tenders",
+			  "donations": "donations"
+		  }
+	  },
+	  "tables": {
+         "language": {
+          "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+          "lengthMenu": "Show _MENU_ Entries",
+          "paginate": {
+            "first":      "First",
+            "last":       "Last",
+            "next":       "Next",
+            "previous":   "Previous"
+          }
+        },
+		"section1": {
+			"col0": "Nr",
+			"col1": "Year",
+			"col2": "Name",
+			"col3": "Institution",
+			"col4": "Business owner",
+			"col5": "Business shareholder",
+			"col6": "Businesses",
+			"col7": "Party Donations",
+			"col8": "Party",
+			"col9": "Link"
+		},
+		"section2": {
+			"col0": "Nr",
+			"col1": "Id",
+			"col2": "Title",
+			"col3": "Contracting Entity",
+			"col4": "Category",
+			"col5": "Procurement Method",
+			"col6": "Tender Value",
+			"col7": "Total awarded amount",
+			"col8": "Awarded companies",
+			"col9": "Public officials",
+			"col10": "Start Date"
+		},
+		"section3": {
+			"col0": "Nr",
+			"col1": "Donor",
+			"col2": "Donor type",
+			"col3": "Donation type",
+			"col4": "Amount",
+			"col5": "Description",
+			"col6": "Date",
+			"col7": "Party",
+			"col8": "Tenders won by donor company",
+			"modalButton": "View tender ids"
+		}
+      }
+   },
+   "sq":{
+	  "menu": {
+		  "section1": "Deklarimet e pasurisë",
+		  "section2": "Prokurimi publik",
+		  "section3": "Financimi i Subjekteve Politike",
+		  "otherPlatforms": "Platforma tjera të IW",
+		  "about": "Rreth nesh"
+	  },
+      "sectionInfo": {
+		"readMore": "Lexo më shumë...",
+		"share": "Ndaj/Shpërndaj",
+		"downloadData": "Shkarko të dhënat ",
+		"section1": {
+			"title": "INTEGRITY WATCH KOSOVA",
+	  		"sectionTitle": "DEKLARIMI I PASURISË",
+	  		"description": "<p>Zyrtarët publikë janë të detyruar të deklarojnë pasurinë në mënyrë periodike. Ne i kemi bërë këto deklarime të lehta për kërkim dhe krahasim sipas vitit dhe institucionit. Mund të shihni cilat institucione kanë më shumë deklarues, të identifikoni nëse deklaruesit figurojnë si pronarë/aksionarë në biznese, të verifikoni nëse këto biznese kanë fituar tenderë publikë, si edhe të shihni nëse deklaruesit kanë dhënë donacione për parti politike.</p><p><strong>Do të gjeni:</strong> deklarime të pasurisë dhe interesave, pronësi apo aksione të zyrtarëve publikë në kompani private, kompanitë e zyrtarëve publik të cilët përfitojnë tenderë publik, si dhe donacionet e tyre për subjektet politike.</p>",
+			"descriptionMore": ""
+		},
+		"section2": {
+			"title": "INTEGRITY WATCH KOSOVA",
+	  		"sectionTitle": "PROKURIMI PUBLIK",
+	  		"description": "<p>Institucionet publike të Kosovës shpenzojnë qindra miliona çdo vit përmes prokurimit, dhe megjithatë, për shkak të vështirësive teknike për t’i verifikuar të gjitha, shumica e qytetarëve nuk e dinë kush fiton dhe pse. Platforma Integrity Watch për Kosovën i vizualizon tenderët, duke ju ndihmuar të shihni cilat kompani fitojnë rregullisht kontrata publike, sa të mëdha janë këto kontrata, nga cilat institucione vijnë dhe lidhjet e mundshme të zyrtarëve publikë me këto kontrata ose kompani.</p><p><strong>Do të gjeni:</strong> kompani që fitojnë tenderë publikë, vlerat e kontratave, procedurat e përdorura, tenderë të dhënë për kompani të lidhura me zyrtarë publikë dhe indikatorë të tjerë rreziku që lidhen me shpenzimet publike.</p>",
+			"descriptionMore": ""
+		},
+		"section3": {
+			"title": "INTEGRITY WATCH KOSOVA",
+	  		"sectionTitle": "FINANCIMI I SUBJEKTEVE POLITIKE",
+	  		"description": "<p>Fushatat kushtojnë para. Por kush i paguan faturat dhe çfarë përfitojnë në këmbim? Të dhënat tona gjurmojnë donacionet e deklaruara të subjekteve politike. Këtu mund të shihni trendet e donacioneve politike, veçanërisht rreth zgjedhjeve, cilat parti marrin më shumë donacione private sipas numrit dhe sipas shumës, si dhe krahasimet sipas natyrës së donacioneve. Mund të vëreni kur donatorë të partive politike shfaqen si kontraktorë publik, ose kur raportet financiare të partive politike nuk përputhen me të dhënat e tjera.</p><p><strong>Do të gjeni:</strong> lista donatorësh, raporte vjetore dhe trende të financimit ndër vite, donator të cilët kanë fituar tender pasi kanë dhënë donacione, etj.</p>",
+			"descriptionMore": ""
+		}
+	  },
+	  "shareModalTitle": "Ndaj/Shpërndaj këtë faqe",
+	  "share": "Ndaj/Shpërndaj në",
+	  "lastUpdatedOn": "Last updated on",
+	  "filters": {
+			"allYears": "Të gjitha vitet"
+	  },
+	  "charts": {
+		"general": {
+			"yes": "Po",
+			"no": "Jo",
+			"declarations": "deklarimet",
+			"tenders": "tenderët",
+			"donations": "donacionet",
+			"donorIsCompanyRelatedToPublicOfficial": "Donacioni është bërë nga kompania në pronësi të zyrtarit publik",
+			"donorIsCompanyWithTendersWins": "Donacioni është bërë nga kompania që ka fituar tender publik",
+			"donorIsCompanyWithTendersWinsWithin3Years": "Donacioni është bërë nga kompania që ka fituar tender publik në tre (3) vitet e fundit",
+			"highValueDonation": "Donacionet mbi shumat e lejuara",
+			"declaredBusinessHasTenderWins": "Bizneset e zyrtarëve publik që kanë përfituar tenderë",
+			"declarationHasDonations": "Zyrtarët publik që kanë dhënë donacion për parti politike",
+			"Individual": "Individ",
+			"Company": "Kompani"
+		},
+		"section1": {
+			"years": {
+				"title": "Deklarimet sipas viteve",
+				"info": "Ky grafikon tregon numrin e deklarimeve të pasurisë sipas viteve"
+			},
+			"institutionCategory": {
+				"title": "Zyrtarët publik deklarues sipas institucionit (%)",
+				"info": "Numri i deklarimeve sipas institucioneve. Klikoni në grafikon për të filtruar të dhënat relevante për institucionin e përzgjedhur."
+			},
+			"institution": {
+				"title": "Institucionet",
+				"info": "Ky grafikon rendit institucionet në bazë të numrit të deklaruesve. Klikoni në grafikon për të filtruar të dhënat relevante për institucionin e përzgjedhur."
+			},
+			"businessOwner": {
+				"title": "Deklaruesi është pronar i biznesit",
+				"info": "Ky grafikon tregon numrin e deklaruesve që janë pronarë biznesi. Klikoni në grafikon për të filtruar të dhënat relevante."
+			},
+			"businessShareholder": {
+				"title": "Deklaruesi është aksionar në biznes",
+				"info": "Ky grafikon tregon numrin e deklaruesve që janë aksionarë në biznes. Klikoni në grafikon për të filtruar të dhënat relevante."
+			},
+			"companies": {
+				"title": "Kompanitë më të përmendura në deklarime",
+				"info": "Ky grafikon shfaq bizneset që përmenden më së shpeshti në deklarime, ku zyrtarët publik janë pronarë dhe/ose aksionarë biznesi. Kliko në kolona për të filtruar të dhënat relevante."
+			},
+			"indicators": {
+				"title": "Indikatorët e rrezikut",
+				"info": "Ky grafikon shfaq<ul><li>i) numrin e zyrtarëve publik që kanë dhënë donacione për subjekte politike;</li><li>ii) numrin e bizneseve në pronësi të zyrtarëve publik që kanë fituar tender.</li></ul><br />Kliko në kolona për të filtruar të dhënat relevante."
+			},
+			"table": {
+				"title": "Deklarimet",
+				"info": "Lista dhe detajet e deklaruesve të pasurisë."
+			}
+		},
+		"section2": {
+			"years": {
+				"title": "Tenderët sipas viteve",
+				"info": "Ky grafikon shfaq numrin e prokurimeve sipas e procedurës dhe viteve"
+			},
+			"deadline": {
+				"title": "Tenderët me afate të shkurtuara (%)",
+				"info": "Ky grafikon shfaq numrin e tenderëve me afate të shkurtuara. Klikoni në grafikon për të filtruar të dhënat relevante."
+			},
+			"negative": {
+				"title": "Tenderët e publikuar pas dhënies së kontratës",
+				"info": "Ky grafikon shfaq numrin e tenderëve që janë publikuar pas dhënies së kontratës. Klikoni në grafikon për të filtruar të dhënat relevante."
+			},
+			"values": {
+				"title": "Tenderët sipas vlerës",
+				"info": "Ky grafikon shfaq numrin e tenderëve sipas vlerës. Kliko në kolona për të filtruar të dhënat relevante."
+			},
+			"indicators": {
+				"title": "Tenderët e dhënë kompanive të zyrtarëve publik",
+				"info": "Ky grafikon shfaq numrin e tenderëve të dhënë kompanive të zyrtarëve publik. Klikoni në grafikon për të filtruar të dhënat relevante."
+			},
+			"hasAwardData": {
+				"title": "Tenderët që kanë të publikuara informatat kryesore të kontratës",
+				"info": "Ky grafikon shfaq numrin e tenderëve që përmbajnë të dhënat kryesore të kontratës. Klikoni në grafikon për të filtruar të dhënat relevante."
+			},
+			"topAuthsByNum": {
+				"title": "Institucionet sipas numrit të tenderëve të shpallur",
+				"info": "Ky grafikon rendit institucionet sipas numrit të tenderëve të shpallur. Kliko në grafikon për të filtruar të dhënat relevante."
+			},
+			"topAuthsByVal": {
+				"title": "Institucionet sipas vlerës së tenderëve të shpallur",
+				"info": "Ky grafikon rendit institucionet sipas vlerës së tenderëve të shpallur. Kliko në grafikon për të filtruar të dhënat relevante."
+			},
+			"topTenderersByNum": {
+				"title": "Kompanitë me numrin më të madh të ofertave të dorëzuara",
+				"info": "Ky grafikon rendit kompanitë sipas numrit të tenderëve për të cilët kanë aplikuar. Kliko në grafikon për të filtruar të dhënat relevante."
+			},
+			"topTenderersByAwards": {
+				"title": "Kompanitë me numrin më të madh të tenderëve të fituar",
+				"info": "Ky grafikon rendit kompanitë sipas numrit të tenderëve të fituar. Kliko në grafikon për të filtruar të dhënat relevante."
+			},
+			"topTenderersByVal": {
+				"title": "Kompanitë sipas vlerës së tenderëve të fituar",
+				"info": "Ky grafikon rendit kompanitë sipas vlerës së tenderëve të fituar. Kliko në grafikon për të filtruar të dhënat relevante."
+			},
+			"criteria": {
+				"title": "Tenderët sipas kriterit të përzgjedhjes",
+				"info": "Numri i tenderëve sipas kriterit të përzgjedhjes:<ul><li>i) Tenderi i përgjegjshëm me çmimin më të lirë, ose</li><li>ii) Tenderi Ekonomikisht më i favorshëm.</li></ul><br />Kliko në grafikon për të filtruar të dhënat relevante."
+			},
+			"methodDetailVal": {
+				"title": "Vlera e tenderëve sipas procedurës së aplikuar",
+				"info": "Ky grafikon rendit vlerën e tenderëve sipas procedurës së aplikuar. Kliko në grafikon për të filtruar të dhënat relevante."
+			},
+			"methodDetail": {
+				"title": "Numri i tenderëve sipas procedurës së aplikuar",
+				"info": "Ky grafikon rendit numrin e tenderëve sipas procedurës së aplikuar. Kliko në grafikon për të filtruar të dhënat relevante."
+			},
+			"type": {
+				"title": "Lloji i blerjes",
+				"info": "Lloji i blerjeve sipas numrit të tenderëve. Kliko në grafikon për të filtruar të dhënat relevante."
+			},
+			"table": {
+				"title": "Tenderët",
+				"info": "Lista e tenderëve dhe detajet. Sqarim, N/A në 'Vlera e tenderit të kontraktuar' nënkupton tenderi është ende në procedurë apo është anuluar."
+			}
+		},
+		"section3": {
+			"years": {
+				"title": "Donacionet sipas viteve",
+				"info": "Ky grafikon paraqet numrin e donacioneve për subjektet politike, sipas viteve."
+			},
+			"partiesByDonations": {
+				"title": "Subjektet politike me numrin më të madh të donacioneve",
+				"info": " Ky grafikon shfaq subjektet politike të radhitura të renditura sipas numrit të pranuar të donacioneve. Klikoni në grafikon për të filtruar të dhënat relevante."
+			},
+			"partiesByDonationsAmt": {
+				"title": "Subjektet politike sipas vlerës së donacioneve të pranuara",
+				"info": "Ky grafikon shfaq subjektet politike, të radhitura sipas vlerës së përgjithshme monetare të donacioneve të pranuara. Klikoni në grafikon për të filtruar të dhënat relevante."
+			},
+			"donorsByDonations": {
+				"title": "Top donatorët sipas numrit të donacioneve të dhuruara",
+				"info": "Ky grafikon paraqet donatorët kryesorë, të renditur sipas numrit të donacioneve të ofruara nga ta. Klikoni në grafikon për të filtruar të dhënat relevante."
+			},
+			"donorsByDonationsAmt": {
+				"title": "Top donatorët sipas vlerës së përgjithshme të donacioneve",
+				"info": "Ky grafikon paraqet donatorët kryesorë, të renditur sipas vlerës së përgjithshme të donacioneve të tyre. Klikoni në grafikon për të filtruar të dhënat relevante. "
+			},
+			"donorType": {
+				"title": "Lloji i donatorit",
+				"info": "Numri i donatorëve të subjekteve politike, sipas llojit të donatorit (individual apo kompani). Klikoni në grafikon për të filtruar të dhënat relevante."
+			},
+			"donationType": {
+				"title": "Lloji i donacionit",
+				"info": "Lloji i donacionit sipas numrit të donacioneve monetare ose jo-monetare (përfshirë kontributet në natyrë dhe në shërbime/mallra). Klikoni në grafikon për të filtruar të dhënat relevante."
+			},
+			"locations": {
+				"title": "Adresa e donatorit",
+				"info": "Ky grafikon shfaq numrin e donacioneve sipas adresës/lokacionit të donatorit. Klikoni në grafikon për të filtruar të dhënat relevante."
+			},
+			"indicators": {
+				"title": "Indikatorët e rrezikut",
+				"info": "Ky grafikon paraqet numrin e donacioneve nga kompanitë të cilat kanë përfituar tenderë publik, përfshirë ato kompani që kanë përfituar tenderë publik në tri (3) vitet e fundit, apo nga kompanitë ku zyrtarë publik janë pronarë apo aksionarë. Klikoni në grafikon për të filtruar të dhënat relevante."
+			},
+			"table": {
+				"title": "Donacionet",
+				"info": "Lista dhe detajet e donacioneve"
+			}
+		}
+	  },
+	  "modals": {
+		"section2": {
+			"title": "Përshkrimi i tenderit",
+			"entity": "Institucioni",
+			"tenderers": "Biznesi",
+			"start": "Data e fillimit të kontratës",
+			"end": "Data e përfundimit të kontratës",
+			"method": "Procedura e prokurimit",
+			"methodDetails": "Detajet e procedurës së prokurimit",
+			"category": "Lloji i blerjes",
+        	"criteria": "Kriteri i përzgjedhjes",
+			"value": "Vlera e parashikuar e tenderit",
+			"totAwardAmount": "Vlera e tenderit të kontraktuar",
+			"awards": "Kontrata",
+			"awardValue": "Vlera",
+			"awardSuppliers": "Kompania fituese",
+			"publicOfficials": "Public officials related to tender winner companies"
+		},
+		"section3Button": "Donacionet ndaj subjekteve politike që janë deklaruar nga zyrtarët publik në deklarimet e tyre të pasurisë, por që mungojnë në raportet financiare të subjekteve politike.",
+		"section3": {
+			"nr": "Nr",
+			"title": "Donacionet ndaj subjekteve politike që janë deklaruar nga zyrtarët publik në deklarimet e tyre të pasurisë, por që mungojnë në raportet financiare të subjekteve politike.",
+			"description": "",
+			"name": "Zyrtari publik",
+			"institution": "Institucioni",
+			"year": "Viti i deklarimit",
+			"politicalParty": "Subjekti politik",
+			"totalDonations": "Shuma e përgjithshme e donacioneve",
+			"date": "Data e dhënies së donacionit",
+			"comments": "Shënime",
+			"tendersModalTitle": "Tenders won by donor company",
+			"tenderWithin3Years": "Within 3 years of donation",
+			"tender": "Tender ID"
+		}
+	  },
+	  "footer": {
+		  "filter": "Filtro ...",
+		  "reset": "Rivendos filtrat",
+		  "counters": {
+			  "of": "të",
+			  "entries": "të dhëna",
+			  "declarations": "deklarimet",
+			  "tenders": "tenderët",
+			  "donations": "donacionet"
+		  }
+	  },
+	  "tables": {
+         "language": {
+          "info": "Duke shfaqur nga _START_ deri te _END_ nga gjithsej _TOTAL_ të dhëna",
+          "lengthMenu": "Shfaq _MENU_ të dhëna",
+          "paginate": {
+            "first":      "E para",
+            "last":       "E fundit",
+            "next":       "Tjetra",
+            "previous":   "Paraprake"
+          }
+        },
+		"section1": {
+			"col0": "Nr",
+			"col1": "Viti",
+			"col2": "Emri",
+			"col3": "Institucioni",
+			"col4": "Pronar në biznes",
+			"col5": "Aksionar në biznes",
+			"col6": "Biznesi",
+			"col7": "Donacione për subjekte politike",
+			"col8": "Subjekte politike",
+			"col9": "Linku"
+		},
+		"section2": {
+			"col0": "Nr",
+			"col1": "Id",
+			"col2": "Titulli",
+			"col3": "Institucioni",
+			"col4": "Lloji i blerjes",
+			"col5": "Procedura e prokurimit",
+			"col6": "Vlera e parashikuar e tenderit",
+			"col7": "Vlera e tenderit të kontraktuar",
+			"col8": "Biznesi",
+			"col9": "Zyrtari Publik",
+			"col10": "Data e fillimit të kontratës"
+		},
+		"section3": {
+			"col0": "Nr",
+			"col1": "Donatori",
+			"col2": "Lloji i donatorit",
+			"col3": "Lloji i donacionit",
+			"col4": "Shuma e donacionit",
+			"col5": "Përshkrimi",
+			"col6": "Data e donacionit",
+			"col7": "Subjekti politik",
+			"col8": "Tenders won by donor company",
+			"modalButton": "View tender ids"
+		}
+      }
+   }
+}
