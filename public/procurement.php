@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700,800" rel="stylesheet">
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="static/procurement.css?v=10">
+  <link rel="stylesheet" href="static/procurement.css?v=11">
 </head>
 <body>
     <div id="app" class="section1-page" v-cloak>   
@@ -297,7 +297,7 @@
     <script type="text/javascript" src="vendor/js/dc.js"></script>
     <script type="text/javascript" src="vendor/js/dc.cloud.js"></script>
     <script type="text/javascript" src="vendor/js/html2canvas.min.js"></script>
-    <script src="static/procurement.js?v=10"></script>
+    <script src="static/procurement.js?v=11"></script>
 
  
 </body>

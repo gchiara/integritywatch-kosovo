@@ -27,8 +27,8 @@ Vue.component("chart-header", ChartHeader);
 var vuedata = {
   platform: "kosovo",
   page: "about",
-  language: "en",
-  defaultLanguage: "en",
+  language: "sq",
+  defaultLanguage: "sq",
   stringsData: {},
   t: {},
 };

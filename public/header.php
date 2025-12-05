@@ -46,8 +46,8 @@
         <a :href="'./about.php?l='+language" class="nav-link nav-link-about">{{t.menu.about}}</a>
       </li>
       <li class="nav-item nav-link-language-container">
-        <button @click="selectLanguage('en', true)" :class="{active: language == 'en'}" class="nav-link nav-link-language">EN</a>
-        <button @click="selectLanguage('sq', true)" :class="{active: language == 'sq'}" class="nav-link nav-link-language">SQ</a>
+        <button @click="selectLanguage('en', true)" :class="{active: language == 'en'}" class="nav-link nav-link-language">EN</button>
+        <button @click="selectLanguage('sq', true)" :class="{active: language == 'sq'}" class="nav-link nav-link-language">SQ</button>
       </li>
     </ul>
   </div>

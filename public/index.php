@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700,800" rel="stylesheet">
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="static/main.css?v=7">
+  <link rel="stylesheet" href="static/main.css?v=8">
 </head>
 <body>
     <div id="app" class="section1-page" v-cloak>   
@@ -221,7 +221,7 @@
     <script type="text/javascript" src="vendor/js/dc.js"></script>
     <script type="text/javascript" src="vendor/js/dc.cloud.js"></script>
     <script type="text/javascript" src="vendor/js/html2canvas.min.js"></script>
-    <script src="static/main.js?v=7"></script>
+    <script src="static/main.js?v=8"></script>
 
  
 </body>

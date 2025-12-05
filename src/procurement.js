@@ -25,9 +25,9 @@ import ChartHeader from "./components/ChartHeader.vue";
 var vuedata = {
   platform: "kosovo",
   page: "section2",
-  language: "en",
+  language: "sq",
   stringsData: {},
-  defaultLanguage: "en",
+  defaultLanguage: "sq",
   t: {},
   topBoxReadMore: false,
   lastUpdateDate: "",
