@@ -1167,6 +1167,9 @@ json("./data/strings.json?" + randomPar, (err, stringsData) => {
                 targets: 2,
                 defaultContent: "N/A",
                 data: function(d) {
+                  if (vuedata.t.charts.general[d.donorType]) {
+                    return vuedata.t.charts.general[d.donorType];
+                  }
                   return d.donorType;
                 },
               },
