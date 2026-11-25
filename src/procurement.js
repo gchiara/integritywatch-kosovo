@@ -29,6 +29,10 @@ var vuedata = {
   stringsData: {},
   defaultLanguage: "sq",
   t: {},
+  introVideoId: {
+    'en': 'qq7ys9ZaXok',
+    'sq': 'KpOlass-C0Y',
+  },
   topBoxReadMore: false,
   lastUpdateDate: "",
   loader: true,
@@ -1946,6 +1950,20 @@ json("./data/strings.json?" + randomPar, (err, stringsData) => {
     counter.render();
     counter.on("renderlet.resetall", function(c) {
       RefreshTable();
+    });
+
+    //Load tutorial video modal
+    $("#introVideoModal").modal();
+    document.getElementById("videoPreview").addEventListener("click", function () {
+        var container = document.getElementById("videoContainer");
+        var iframe = container.querySelector("iframe");
+        iframe.src = "https://www.youtube.com/embed/"+vuedata.introVideoId[vuedata.language]+"?autoplay=1";
+        container.style.display = "block";
+        this.style.display = "none";
+    });
+    $("#introVideoModal").on('hidden.bs.modal', function (e) {
+      var iframe = document.getElementById('introVideoIframe');
+      iframe.src = '';
     });
 
     //Window resize function

@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700,800" rel="stylesheet">
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="static/procurement.css?v=11">
+  <link rel="stylesheet" href="static/procurement.css?v=13">
 </head>
 <body>
     <div id="app" class="section1-page" v-cloak>   
@@ -287,6 +287,30 @@
           </div>
         </div>
       </div>
+      <!-- TUTORIAL VIDEO MODAL -->
+      <div class="modal" id="introVideoModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <div class="modal-title">
+                {{t.videoModalTitleProcurement}}
+              </div>
+              <button type="button" class="close" data-dismiss="modal"><i class="material-icons">close</i></button>
+            </div>
+            <!-- Modal body EN -->
+            <div class="modal-body">
+              <div class="shorts-preview" id="videoPreview">
+                <img :src="'https://img.youtube.com/vi/'+introVideoId[language]+'/maxresdefault.jpg'" alt="Video preview">
+                <div class="play-button">▶</div>
+              </div>
+              <div id="videoContainer" style="display:none;">
+                  <iframe id="introVideoIframe" width="100%" height="100%" src="" allowfullscreen allow="autoplay"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Loader -->
       <loader v-if="loader" :text="''" />
     </div>
@@ -297,7 +321,7 @@
     <script type="text/javascript" src="vendor/js/dc.js"></script>
     <script type="text/javascript" src="vendor/js/dc.cloud.js"></script>
     <script type="text/javascript" src="vendor/js/html2canvas.min.js"></script>
-    <script src="static/procurement.js?v=11"></script>
+    <script src="static/procurement.js?v=13"></script>
 
  
 </body>

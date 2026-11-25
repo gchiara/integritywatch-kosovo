@@ -31,6 +31,9 @@
 		}
 	  },
 	  "shareModalTitle": "Share this page",
+	  "videoModalTitleAssets": "How to navigate the asset and interest declarations module",
+	  "videoModalTitleProcurement": "How to navigate the public procurement module",
+	  "videoModalTitleDonations": "How to navigate the political financing module",
       "share": "Share on",
 	  "lastUpdatedOn": "Last updated on",
 	  "filters": {
@@ -323,6 +326,9 @@
 		}
 	  },
 	  "shareModalTitle": "Ndaj/Shpërndaj këtë faqe",
+	  "videoModalTitleAssets": "Si të përdorim modulin për deklarimin e pasurisë dhe interesave",
+	  "videoModalTitleProcurement": "Si të përdorim modulin për prokurimin publik",
+	  "videoModalTitleDonations": "Si të përdorim modulin për financat e subjekteve politike",
 	  "share": "Ndaj/Shpërndaj në",
 	  "lastUpdatedOn": "Last updated on",
 	  "filters": {

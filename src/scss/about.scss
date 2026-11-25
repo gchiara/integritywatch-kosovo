@@ -80,7 +80,11 @@
   font-family: Arial;
   margin: 20px auto;
   img {
-    width: 200px;
+    width: 150px;
+    margin: 0 20px;
+    &.sweden {
+      width: 240px;
+    }
   }
   p {
     font-size: 13px;

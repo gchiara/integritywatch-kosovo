@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700,800" rel="stylesheet">
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="static/about.css?v=3">
+    <link rel="stylesheet" href="static/about.css?v=4">
 </head>
 <body>
     <div id="app" v-cloak> 
@@ -77,6 +77,11 @@
                 <p>Integrity Watch allows you to filter and explore the data in an intuitive way. Inside each section, when clicking on an element of a chart, for example a bar of a bar chart or a slice of a pie chart, the underlying data will be filtered based on that selection and all other charts will update accordingly, only showing the data entries matching the selected filters.</p>
                 <p>In addition to this functionality, it's also possible to use the search bar at the bottom to filter the dashboards according to a textual input, for example the name of a political party, company, public official or institution related to the section's data.</p>
                 <p>Clicking the "Reset filters" button in the bottom right corner will reset the filters, refreshing the dashboards to their initial state. well as donations made to political parties.</p>
+                <ul>
+                  <li><a href="./tutorials/Udhëzuesi i përdorimit - Platforma  Integrity Watch Kosova.pdf" target="_blank">Udhëzuesi i përdorimit - Platforma Integrity Watch Kosova [PDF]</a></li>
+                  <li><a href="./tutorials/User manual - Integrity Watch Kosova Platform.pdf" target="_blank">User manual - Integrity Watch Kosova Platform [PDF]</a></li>
+                  <li><a href="./tutorials/Uputstvo za korišćenje - Platforma Integrity Watch Kosova.pdf" target="_blank">Uputstvo za korišćenje - Platforma Integrity Watch Kosova [PDF]</a></li>
+                </ul>
                 <p>The data in this platform have been collected from public sources of the three key institutions: Agency for Prevention of Corruption in Kosovo (APC), Central Election Commission (CEC) and Public Procurement Regulatory Commission (PPRC). The data is extracted from documents published on the websites of the relevant institutions, from requests for access to public documents, and through use of the API for public procurement. The platform processes and visualizes this information so the public can explore it freely, filter it by year, institution, or name, and many other interesting filters.</p>
               </div>
             </div>
@@ -202,9 +207,13 @@
             </div>
             <div id="collapse9" class="panel-collapse collapse in">
               <div class="panel-body">
-                <p>The Integrity Watch platforms in Kosovo, Bosnia and Herzegovina, North Macedonia, Serbia and Türkiye are launched in December 2025 as part of the project <i>“Integrity Watch in the Western Balkans and Türkiye: civil society combating corruption with political integrity data”</i> funded by the European Commission. Neither the institutions nor the bodies of the European Union, nor any person acting on their behalf, may be held responsible for the use that may be made of the information it contains.</p>
+                <p>The Integrity Watch platforms in Kosovo, Bosnia and Herzegovina, North Macedonia, Serbia and Türkiye were launched in December 2025 as part of the project “Integrity Watch in the Western Balkans and Türkiye: civil society combating corruption with political integrity data” funded by the European Commission. Operating this website is made possible also through the financial support of the Government of Sweden, specifically as co-financing from the project “Youth and Civil Society for Integrity”, funded through the Embassy of Sweden in Prishtina.</p>
+                <p>Neither the institutions nor the bodies of the European Union, nor the Government of Sweden, nor any person acting on their behalf, can be held responsible for the way in which the information contained in this material may be used.</p>
                 <p>Application design and development: <a href="https://www.chiaragirardelli.net" target="_blank">Chiara Girardelli</a></p>
-                <div class="about-eu-funding"><img src="./images/flag_yellow_low.jpg" class="logo"> <p style="font-family: Arial;">The Integrity Watch platforms in Kosovo, Serbia, North Macedonia, Bosnia and Herzegovina and Türkiye are funded by the European Union.</p></div>
+                <div class="about-eu-funding">
+                  <img src="./images/flag_yellow_low.jpg" class="logo">
+                  <img src="./images/sweden.png" class="logo sweden">
+                </div>
               </div>
             </div>
           </div>
@@ -264,6 +273,11 @@
                 <p>Integrity Watch ju lejon të filtroni dhe të eksploroni të dhënat në mënyrë intuitive. Brenda çdo seksioni, kur klikoni në një element grafiku, p.sh. një shtyllë në grafikun me shtylla ose një ndarje në grafikun rrethor, të dhënat bazë filtrohen sipas asaj përzgjedhjeje dhe të gjithë grafikonët e tjerë, dhe tabela përmbledhëse, përditësohen për të shfaqur vetëm të dhënat që përputhen me filtrat e zgjedhur.</p>
                 <p>Përveç këtij funksionaliteti, është e mundur të përdorni edhe shiritin e kërkimit (search bar) në fund për të filtruar të të dhënat sipas një teksti të caktuar, p.sh. emrin e partie, kompanie, zyrtari publik ose institucioni që lidhet me të dhënat e seksionit.</p>
                 <p>Klikimi i butonit “Rivendos filtrat” në këndin e poshtëm djathtas do t’i rivendosë filtrat, duke i kthyer të dhënat e ilustruara (paraqitura) në gjendjen fillestare.</p>
+                <ul>
+                  <li><a href="./tutorials/Udhëzuesi i përdorimit - Platforma  Integrity Watch Kosova.pdf" target="_blank">Udhëzuesi i përdorimit - Platforma Integrity Watch Kosova [PDF]</a></li>
+                  <li><a href="./tutorials/User manual - Integrity Watch Kosova Platform.pdf" target="_blank">User manual - Integrity Watch Kosova Platform [PDF]</a></li>
+                  <li><a href="./tutorials/Uputstvo za korišćenje - Platforma Integrity Watch Kosova.pdf" target="_blank">Uputstvo za korišćenje - Platforma Integrity Watch Kosova [PDF]</a></li>
+                </ul>
                 <p>Të dhënat në këtë platformë janë mbledhur nga burime publike të tre institucioneve kyçe: Agjencia për Parandalimin e Korrupsionit në Kosovë (APK), Komisioni Qendror i Zgjedhjeve (KQZ) dhe Komisioni Rregullativ i Prokurimit Publik (KRPP). Të dhënat janë mbledhur nga dokumentet ekzistuese të publikuara në ueb-faqet e institucioneve gjegjëse, kërkesave për qasje në dokumente publike si dhe përmes përdorimit të API në rastin e prokurimit publik. Platforma i përpunon dhe i vizuelizon këto informacione në mënyrë që publiku t’i eksplorojë lehtë, t’i filtrojë sipas vitit, institucionit, emrit dhe shumë filtrave të tjerë interesantë.</p>
               </div>
             </div>
@@ -389,9 +403,13 @@
             </div>
             <div id="collapse9" class="panel-collapse collapse in">
               <div class="panel-body">
-                <p>Platformat Integrity Watch në Kosovë, Bosnje dhe Hercegovinë, Maqedoninë e Veriut, Serbi dhe Turqi lansohen në dhjetor 2025 si pjesë e projektit “Integrity Watch në Ballkanin Perëndimor dhe Turqi: shoqëria civile kundër korrupsionit me të dhëna për integritetin politik”, të financuar nga Komisioni Evropian. As institucionet dhe as organet e Bashkimit Evropian, e as ndonjë person që vepron në emrin e tyre, nuk mbajnë përgjegjësi për mënyrën se si mund të përdoret informacioni që përmban ky material.</p>
+                <p>Platformat Integrity Watch në Kosovë, Bosnjë dhe Hercegovinë, Maqedoninë e Veriut, Serbi dhe Turqi janë lansuar në dhjetor të vitit 2025, si pjesë e projektit “Integrity Watch në Ballkanin Perëndimor dhe Turqi: shoqëria civile kundër korrupsionit me të dhëna për integritetin politik”, të financuar nga Komisioni Evropian. Operimi i kësaj uebfaqeje mundësohet gjithashtu përmes mbështetjes financiare të Qeverisë së Suedisë, konkretisht si bashkëfinancim nga projekti “Youth and Civil Society for Integrity”, i financuar përmes Ambasadës së Suedisë në Prishtinë.</p>
+                <p>As institucionet dhe as organet e Bashkimit Evropian, as Qeveria e Suedisë, e as ndonjë person që vepron në emër të tyre, nuk mbajnë përgjegjësi për mënyrën se si mund të përdoret informacioni dhe të dhënat që përmban kjo ueb-faqe.</p>
                 <p>Dizajnimi dhe zhvillimi i aplikacionit: <a href="https://www.chiaragirardelli.net" target="_blank">Chiara Girardelli</a></p>
-                <div class="about-eu-funding"><img src="./images/flag_yellow_low.jpg" class="logo"> <p style="font-family: Arial;">Platformat Integrity Watch në Kosovë, Serbi, Maqedoninë e Veriut, Bosnje dhe Hercegovinë dhe Turqi financohen nga Bashkimi Evropian.</p></div>
+                <div class="about-eu-funding">
+                  <img src="./images/flag_yellow_low.jpg" class="logo">
+                  <img src="./images/sweden.png" class="logo sweden">
+                </div>
               </div>
             </div>
           </div>
@@ -401,6 +419,6 @@
 
       </div>
     </div>
-    <script src="static/about.js?v=3"></script>
+    <script src="static/about.js?v=4"></script>
 </body>
 </html>
